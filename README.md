@@ -66,7 +66,7 @@ test-lora/
 ├── environment.yml
 ├── requirements.txt
 ├── data/
-│   └── instructions.jsonl      # 小型中文指令样例数据
+│   └── instructions.jsonl      # 中文指令数据(采样自 HF silk-road/alpaca-data-gpt4-chinese,200 条)
 └── notebooks/
     ├── 00_环境准备与GPU检测.ipynb
     ├── 01_PEFT与LoRA原理与实战.ipynb
